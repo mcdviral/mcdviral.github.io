@@ -44,17 +44,17 @@ We also split the data into different bag based on the sensors. Users can freely
 <table class="tg" style="undefined;table-layout: fixed; width: 1027px">
 <colgroup>
 <col style="width: 72px">
-<col style="width: 129px">
-<col style="width: 75px">
-<col style="width: 109px">
-<col style="width: 149px">
-<col style="width: 84px">
-<col style="width: 84px">
-<col style="width: 87px">
-<col style="width: 75px">
-<col style="width: 68px">
-<col style="width: 54px">
-<col style="width: 41px">
+<col style="width: 96px">
+<col style="width: 96px">
+<col style="width: 96px">
+<col style="width: 96px">
+<col style="width: 96px">
+<col style="width: 96px">
+<col style="width: 96px">
+<col style="width: 96px">
+<col style="width: 96px">
+<col style="width: 96px">
+<col style="width: 96px">
 </colgroup>
 <thead>
   <tr>
