@@ -20,9 +20,9 @@ Besides featuring a big set of sensors, we also capture the dataset over large-s
 
 # Downloads
 
-There are 18 sequences captured in as rosbags compressed with bz2 method. We split the data into different bag based on the sensors so that user can freely select the combo that suits their interest.
+There are 18 sequences captured in as rosbags compressed with bz2 method. We split the data into different bags based on the sensor type. User can freely select the combo that suits their interest. (To play all bag files under the same folder, one can use the `*` symbol, for e.g. `rosbag play ntu_day_01/*.bag`)
 
-**It is recommended that user reads through the [notes](Sensors.html) on each sensor to use the sensor data correctly.**
+It is recommended that user reads through the [notes](Sensors.html) on each sensor to use the sensor data correctly.
 
 *(Note: Currently only ntu_day_01 and kth_day_09 sequences may be downloadable. Others are still under development.)*
 
