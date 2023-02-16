@@ -24,7 +24,7 @@ There are 18 sequences captured in as rosbags compressed with bz2 method. We spl
 
 It is recommended that user reads through the [notes](Sensors.html) on each sensor to use the sensor data correctly.
 
-*(Note: Currently only ntu_day_01 and kth_day_09 sequences may be downloadable. Others are still under development.)*
+*(Note: Currently only ntu_day_01 sequence is accessible. Others are under development.)*
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
