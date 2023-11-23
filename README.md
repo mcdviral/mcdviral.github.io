@@ -16,9 +16,10 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
   <p align="center">
     <img src="images/xxxpm_semantic_compressed.gif" width="35%"/>
   </p>
-* Continuous-time ground truth
+* Continuous-time ground truth and [B-Spline python wrapper with rich functionalities](https://github.com/mcdviral/ceva)
   <p align="center">
-    <img src="images/motion.png" width="50%"/>
+    <img src="images/motion.png" width="31%"/>
+    <img src="images/spline_fitting_demo.png" width="60%"/>
   </p>
 * Semantic labels for non-repetitive lidar scans
   <p align="center">
