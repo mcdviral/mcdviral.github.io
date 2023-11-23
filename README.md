@@ -15,6 +15,7 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
 * High resolution large scale survey-grade prior maps
   <p align="center">
     <img src="images/xxxpm_semantic_compressed.gif" width="35%"/>
+    <img src="images/zzz_rgb_annotated.gif" width="35%"/>
   </p>
 * Continuous-time ground truth and [B-Spline python wrapper with rich functionalities](https://github.com/mcdviral/ceva)
   <p align="center">
