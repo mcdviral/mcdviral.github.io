@@ -36,7 +36,6 @@ If you have some inquiry, please raise an [issue](https://github.com/mcdviral/mc
 
 # Licence
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) and is intended for non-commercial academic use.
-If you are interested in using the dataset for commercial purposes please [contact us](mailto:mcdviral@gmail.com).
 
 # Citation
 If you use any resource on this website in your work, please cite our work as:
