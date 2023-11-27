@@ -34,7 +34,7 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
 
 If you have some inquiry, please raise an [issue](https://github.com/mcdviral/mcdviral.github.io/issues) on github.
 
-This dataset is made available for academic use only. We take your privacy seriously! If you find yourself or personal belongings in this dataset and feel unwell about it, please [contact us](mailto:mcdviral@gmail.com) and we will correct the issue.
+This dataset is made available for academic use only. If you find yourself or personal belongings in this dataset and feel unwell about it, please [contact us](mailto:mcdviral@gmail.com) and we will correct the issue.
 
 # Licence
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) and is intended for non-commercial academic use.
