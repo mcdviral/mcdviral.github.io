@@ -14,8 +14,9 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
   + UWB ranging sensors
 * High resolution large scale survey-grade prior maps
   <p align="center">
-    <img src="images/xxx_rgb_annotated.gif" width="35%"/>
-    <img src="images/zzz_rgb_annotated.gif" width="35%"/>
+    <img src="images/xxx_rgb_annotated.gif" width="32%"/>
+    <img src="images/yyy_rgb_annotated.gif" width="32%"/>
+    <img src="images/zzz_rgb_annotated.gif" width="32%"/>
   </p>
 * Continuous-time ground truth and [B-Spline python wrapper with rich functionalities](https://github.com/mcdviral/ceva)
   <p align="center">
