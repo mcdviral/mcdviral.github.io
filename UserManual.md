@@ -6,9 +6,57 @@ sort: 3
 
 ## Lidar data
 
-<!-- From our experience, it is very very common for users to mistakenly think of lidar pointcloud as a 3D image. This is not the case. One should think of the lidar data as a stream of points captured continuously, and each point has an individual timestamp. -->
-<!-- The lidar messages are these points packaged together and published over the ROS session. -->
-<!-- One need to pay attention to the engineering behind the packaging technique (which are different for different datasets) to properly recover the original time stamp. -->
+### Resolution and rate
+
+For the **xxx_** sequences, the ouster lidar has 128 channels with 1024 points per channel. For the **yyy_** and **zzz_** sequences, the ouster lidar has 64 channels with 1024 points per channel. In all sequences, the mid70 Livox lidar have one single non-repetitive line with 9980 points per line. All lidars output data at 10 Hz.
+
+### Point format
+
+**For ouster lidar**, the C++ definition of the point struct by the [PCL](https://pointclouds.org/) convention is as follows:
+
+```
+struct PointOuster
+{
+    PCL_ADD_POINT4D;
+    float intensity;
+    uint32_t t;
+    uint16_t reflectivity;
+    uint16_t ambient;
+    uint32_t range;
+    uint8_t  ring;
+    EIGEN_MAKE_ALIGNED_OPERATOR_NEW
+} EIGEN_ALIGN16;
+POINT_CLOUD_REGISTER_POINT_STRUCT(PointOuster,
+                                 (float, x, x) (float, y, y) (float, z, z)
+                                 (float, intensity, intensity)
+                                 (uint32_t, t, t)
+                                 (uint16_t, reflectivity, reflectivity)
+                                 (uint16_t, ambient, ambient)
+                                 (uint32_t, range, range)
+                                 (uint8_t,  ring, ring)
+)
+```
+
+For python programming, we recommend using the [pypcd](https://github.com/mcdviral/pypcd) package, which can read the pointcloud directly from ROS message into structured numpy array with the field names intact. Please find the demo [here](https://github.com/mcdviral/ceva/blob/master/scripts/deskew_demo.ipynb).
+
+**For livox lidar**, the point has a custom structuure that is defined by the manufacturer as follows:
+
+```
+# Livox costum pointcloud format.
+
+uint32 offset_time      # offset time relative to the base time
+float32 x               # X axis, unit:m
+float32 y               # Y axis, unit:m
+float32 z               # Z axis, unit:m
+uint8 reflectivity      # reflectivity, 0~255
+uint8 tag               # livox tag
+uint8 line              # laser number in lidar
+```
+
+Please follows the instructions [here](https://github.com/Livox-SDK/livox_ros_driver) to install the livox driver, after which you should be able to import and manipulate the livox message in ROS python or C++ program.
+
+
+### Time stamp
 For MCD, please take note of the following:
 
 * For the ouster data, the timestamp in the message header corresponds to the *end* of the 0.1s sweep. Let us denote it as $$t_h$$. Each lidar point has a timestamp (in nanosecond) that is relative to the *start* of the sweep, denoted as $$t_r$$. The absolute time of the point $$t_a$$ is therefore:
