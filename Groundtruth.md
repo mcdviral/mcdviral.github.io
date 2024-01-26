@@ -43,6 +43,8 @@ Here, num is the index of the lidar pointcloud in the bag file, t is the time st
 
 ## Continous-time ground truth
 
+(We recommend the following [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sommer_Efficient_Derivative_Computation_for_Cumulative_B-Splines_on_Lie_Groups_CVPR_2020_paper.pdf) for the detail description of B-spline based continuous-time trajectory representation)
+
 The continuous time trajectory can be used to obtain the deskewed pointclouds. A file named spline.csv is provided in the same folder. The content is as follows:
 
 ```
@@ -56,7 +58,7 @@ Dt: 0.025, Order: 6, Knots: 24045, MinTime: 1644823132.49097, MaxTime: 164482373
 ...
 ```
 
-The first line lists the parameters of the spline: the knot length **Dt**, the spline **Order**, the number of **Knots**, the starting time **MinTime** and the ending time **MaxTime** of the trajectory. Subsequently, the index, time stamp and the value of each control pose (x,y,z,qx,qy,qz,qw) is listed line by line.
+The first line lists the parameters of the spline: the *knot length* **Dt**, the spline **Order**, the number of **Knots**, the starting time **MinTime** and the ending time **MaxTime** of the trajectory. Subsequently, the index, time stamp and the value of each control pose (x,y,z,qx,qy,qz,qw) is listed line by line.
 
 The best way to read and query the spline information is by using the package [ceva](https://github.com/mcdviral/ceva) that is a python wrapper for the [basalt library](https://gitlab.com/VladyslavUsenko/basalt). For example one can create a spline from the log file as follows:
 

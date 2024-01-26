@@ -4,11 +4,160 @@ sort: 3
 
 # User Manual
 
+## Overview
+
+Below are the ROS topics of each sensor modality in MCD. Please click on the link on each message type for their detailed definition. Other details such as resolutions are also provided. The naming convention `**/\<hardware-unit\>/\<modality\>/...**' is applied for all topics in both the ATV and HHS setups. Note that the 't' and 'b' affixes in the names of the realsense D455 modules refer to 'top' and 'bottom' units. They do not mean a hardware variant.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-a890{background-color:#FFF;border-color:inherit;color:#212529;text-align:left;vertical-align:middle}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-nzoj{border-color:inherit;color:#00E;text-align:left;text-decoration:underline;vertical-align:middle}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg" align="center">
+<colgroup>
+<col style="width: 67.75px">
+<col style="width: 103.75px">
+<col style="width: 195.75px">
+<col style="width: 195.75px">
+<col style="width: 223.75px">
+<col style="width: 54.75px">
+<col style="width: 209.75px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-uzvj" rowspan="2">Modality</th>
+    <th class="tg-uzvj" rowspan="2">Hardware</th>
+    <th class="tg-uzvj" colspan="2">ROS topics / Sensor suite</th>
+    <th class="tg-uzvj" rowspan="2">Message type</th>
+    <th class="tg-uzvj" rowspan="2">Rate<br>(Hz)</th>
+    <th class="tg-9wq8" rowspan="2"><span style="font-weight:bold">Notes</span></th>
+  </tr>
+  <tr>
+    <th class="tg-uzvj">ATV</th>
+    <th class="tg-uzvj">HHS</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-uzvj" rowspan="3">Camera</td>
+    <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d435i/" target="_blank" rel="noopener noreferrer">D435i</a></td>
+    <td class="tg-lboi">/d435i/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d435i/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw</td>
+    <td class="tg-lboi">-</td>
+    <td class="tg-lboi" rowspan="3"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Image.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Image</a></td>
+    <td class="tg-9wq8">30</td>
+    <td class="tg-lboi">640<span style="font-weight:400;font-style:normal">×480 Greyscale</span><br><span style="font-weight:400;font-style:normal">640</span>×480 Greyscale</td>
+  </tr>
+  <tr>
+    <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d455/" target="_blank" rel="noopener noreferrer">D455t</a></td>
+    <td class="tg-lboi">-</td>
+    <td class="tg-lboi">/d455t/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455t/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455t/color/image_raw</span></td>
+    <td class="tg-9wq8">30</td>
+    <td class="tg-lboi">640×480 Greyscale<br><span style="font-weight:400;font-style:normal">640×480 Greyscale</span><br><span style="font-weight:400;font-style:normal">640×480 RGB</span></td>
+  </tr>
+  <tr>
+    <td class="tg-lboi"><a href="https://www.intelrealsense.com/depth-camera-d455/" target="_blank" rel="noopener noreferrer">D455b</a></td>
+    <td class="tg-lboi">/d455b/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455b/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455b/color/image_raw</span></td>
+    <td class="tg-lboi">/d455b/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455b/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455b/color/image_raw</span></td>
+    <td class="tg-9wq8">30</td>
+    <td class="tg-lboi">640×480 Greyscale<br><span style="font-weight:400;font-style:normal">640×480 Greyscale</span><br><span style="font-weight:400;font-style:normal">640×480 RGB</span></td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj" rowspan="6">IMU</td>
+    <td class="tg-lboi">Ouster OS1</td>
+    <td class="tg-lboi">/os cloud node/imu</td>
+    <td class="tg-lboi">/os cloud node/imu</td>
+    <td class="tg-lboi" rowspan="6"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Imu</a></td>
+    <td class="tg-9wq8">100</td>
+    <td class="tg-lboi"><a href="https://data.ouster.io/downloads/datasheets/datasheet-rev7-v3p0-os1.pdf" target="_blank" rel="noopener noreferrer">IAM-20680HT</a></td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">D435i</td>
+    <td class="tg-lboi">/d435i/imu</td>
+    <td class="tg-lboi">-</td>
+    <td class="tg-9wq8">400</td>
+    <td class="tg-a890"><a href="https://www.intelrealsense.com/how-to-getting-imu-data-from-d435i-and-t265/" target="_blank" rel="noopener noreferrer">Bosch BMI055</a></td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">D455t</td>
+    <td class="tg-lboi">-</td>
+    <td class="tg-lboi">/d455t/imu</td>
+    <td class="tg-9wq8">400</td>
+    <td class="tg-lboi"><a href="https://www.intelrealsense.com/wp-content/uploads/2020/06/Intel-RealSense-D400-Series-Datasheet-June-2020.pdf" target="_blank" rel="noopener noreferrer">See datasheet</a></td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">D455b</td>
+    <td class="tg-lboi">/d455b/imu</td>
+    <td class="tg-lboi">/d455b/imu</td>
+    <td class="tg-9wq8">400</td>
+    <td class="tg-nzoj"><a href="https://www.intelrealsense.com/wp-content/uploads/2020/06/Intel-RealSense-D400-Series-Datasheet-June-2020.pdf" target="_blank" rel="noopener noreferrer">See datasheet</a></td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">VN100</td>
+    <td class="tg-lboi">/vn100/imu</td>
+    <td class="tg-lboi">-</td>
+    <td class="tg-9wq8">400</td>
+    <td class="tg-lboi">9-axis IMU (<a href="https://www.vectornav.com/resources/datasheets/vn-100-imu-ahrs" target="_blank" rel="noopener noreferrer">datasheet</a>)</td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">VN200</td>
+    <td class="tg-lboi">/vn200/imu</td>
+    <td class="tg-lboi">/vn200/imu</td>
+    <td class="tg-c3ow">400</td>
+    <td class="tg-0pky">9-axis IMU (<a href="https://www.vectornav.com/resources/datasheets/vn-200-gnss-ins" target="_blank" rel="noopener noreferrer">datasheet</a>)</td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj" rowspan="2">Lidar</td>
+    <td class="tg-lboi">Ouster OS1</td>
+    <td class="tg-lboi">/os cloud node/points</td>
+    <td class="tg-lboi">/os cloud node/points</td>
+    <td class="tg-lboi"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/PointCloud2.html" target="_blank" rel="noopener noreferrer">sensor_msgs/PointCloud2</a></td>
+    <td class="tg-9wq8">10</td>
+    <td class="tg-lboi">128 channel for ATV, 64 channel for HHS<br>Points per channel: 1024<br>Point format: see <a href="https://mcdviral.github.io/UserManual.html#point-format" target="_blank" rel="noopener noreferrer">our manual</a></td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">Livox Mid70</td>
+    <td class="tg-lboi">/livox/lidar</td>
+    <td class="tg-lboi">/livox/lidar</td>
+    <td class="tg-lboi"><a href="https://github.com/Livox-SDK/livox_ros_driver/blob/master/livox_ros_driver/msg/CustomMsg.msg" target="_blank" rel="noopener noreferrer">livox_ros_driver/CustomMsg.msg</a></td>
+    <td class="tg-9wq8">10</td>
+    <td class="tg-lboi">1 channel.<br>Points per channel: 9984<br>Point format: see <a href="https://mcdviral.github.io/UserManual.html#point-format" target="_blank" rel="noopener noreferrer">our manual</a></td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj">UWB</td>
+    <td class="tg-lboi">Link Track P</td>
+    <td class="tg-lboi"><span style="font-weight:400;font-style:normal">/ltp tag0/nlnf3</span><br><span style="font-weight:400;font-style:normal">/ltp tag1/nlnf3</span></td>
+    <td class="tg-lboi"><span style="font-weight:400;font-style:normal">/ltp tag0/nlnf3</span><br><span style="font-weight:400;font-style:normal">/ltp tag1/nlnf3</span></td>
+    <td class="tg-lboi"><a href="https://github.com/nooploop-dev/nlink_parser/blob/master/msg/LinktrackNodeframe3.msg" target="_blank" rel="noopener noreferrer">nlink_parser/LinktrackNodeframe3</a></td>
+    <td class="tg-9wq8">20</td>
+    <td class="tg-lboi"><a href="https://ftp.nooploop.com/software/products/uwb/doc/LinkTrack_Datasheet_V2.1_en.pdf" target="_blank" rel="noopener noreferrer">See datasheet</a></td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj">GPS</td>
+    <td class="tg-lboi">VN200</td>
+    <td class="tg-lboi">/vn200/GPS</td>
+    <td class="tg-lboi">-</td>
+    <td class="tg-lboi"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/NavSatFix.html" target="_blank" rel="noopener noreferrer">sensor_msgs/NavSatFix</a></td>
+    <td class="tg-9wq8">400</td>
+    <td class="tg-lboi"><a href="https://ftp.nooploop.com/software/products/uwb/doc/LinkTrack_Datasheet_V2.1_en.pdf" target="_blank" rel="noopener noreferrer">See datasheet</a></td>
+  </tr>
+</tbody>
+</table>
+
+
 ## Lidar data
 
 ### Resolution and rate
 
-For the **xxx_** sequences, the ouster lidar has 128 channels with 1024 points per channel. For the **yyy_** and **zzz_** sequences, the ouster lidar has 64 channels with 1024 points per channel. In all sequences, the mid70 Livox lidar have one single non-repetitive line with 9980 points per line. All lidars output data at 10 Hz.
+For the **xxx_** sequences, the ouster lidar has 128 channels with 1024 points per channel. For the **yyy_** and **zzz_** sequences, the ouster lidar has 64 channels with 1024 points per channel. In all sequences, the mid70 Livox lidar have one single non-repetitive line with 9984 points per line. All lidars output data at 10 Hz.
 
 ### Point format
 
@@ -39,7 +188,7 @@ POINT_CLOUD_REGISTER_POINT_STRUCT(PointOuster,
 
 For python programming, we recommend using the [pypcd](https://github.com/mcdviral/pypcd) package, which can read the pointcloud directly from ROS message into structured numpy array with the field names intact. Please find the demo [here](https://github.com/mcdviral/ceva/blob/master/scripts/deskew_demo.ipynb).
 
-**For livox lidar**, the point has a custom structuure that is defined by the manufacturer as follows:
+**For livox lidar**, the point has a custom structure that is defined by the manufacturer as follows:
 
 ```
 # Livox costum pointcloud format.
@@ -94,125 +243,3 @@ The ground truth data in our csv files are the poses $$({}^{\mathtt{W}}_{\mathtt
 In most cases, the SLAM estimate $${}^{\mathtt{B}_0}_{\mathtt{B}_t}\hat{\bf{T}}$$ is relative to the coordinate frame that coincides with the body frame at initial time. It is therefore neccessary to align the SLAM estimate with the groundtruth. The [evo package](https://github.com/MichaelGrupp/evo) is a popular tool for this task.
 
 <!-- calculate the error of the pose estimates $${}^{\mathtt{B}}_{\mathtt{S}}\hat{\bf{T}}$$ -->
-
-
-## ROS topics
-
-Below are the topics of each sensor modality in MCD. The naming convention `**/\<hardware-unit\>/\<modality\>/...**' is applied for all topics in both the ATV and HHS setups. Note that the 't' and 'b' affixes in the names of the realsense D455 modules refer to 'top' and 'bottom' units. They do not mean a hardware variant.
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg" align="center">
-<thead>
-  <tr>
-    <th class="tg-7btt" rowspan="2">Modality</th>
-    <th class="tg-7btt" rowspan="2">Hardware Unit</th>
-    <th class="tg-7btt" colspan="2">ROS topics / Sensor suite</th>
-    <th class="tg-7btt" rowspan="2">Message type</th>
-    <th class="tg-7btt" rowspan="2">Rate<br>(Hz)</th>
-  </tr>
-  <tr>
-    <th class="tg-7btt">ATV</th>
-    <th class="tg-7btt">HSS</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-7btt" rowspan="3">Camera</td>
-    <td class="tg-0pky">D435i</td>
-    <td class="tg-0pky">/d435i/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d435i/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw</td>
-    <td class="tg-0pky">-</td>
-    <td class="tg-0pky" rowspan="3"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Image.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Image</a></td>
-    <td class="tg-c3ow">30</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">D455t</td>
-    <td class="tg-0pky">-</td>
-    <td class="tg-0pky">/d455t/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455t/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455t/color/image_raw</span></td>
-    <td class="tg-c3ow">30</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">D455b</td>
-    <td class="tg-0pky">/d455b/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455b/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455b/color/image_raw</span></td>
-    <td class="tg-0pky">/d455b/infra1/image_rect_raw<br><span style="font-weight:400;font-style:normal">/d455b/infra2/image</span>_<span style="font-weight:400;font-style:normal">rect</span>_raw<br><span style="font-weight:400;font-style:normal">/d455b/color/image_raw</span></td>
-    <td class="tg-c3ow">30</td>
-  </tr>
-  <tr>
-    <td class="tg-7btt" rowspan="6">IMU</td>
-    <td class="tg-0pky">Ouster OS1</td>
-    <td class="tg-0pky">/os cloud node/imu</td>
-    <td class="tg-0pky">/os cloud node/imu</td>
-    <td class="tg-0pky" rowspan="6"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Imu.html" target="_blank" rel="noopener noreferrer">sensor_msgs/Imu</a></td>
-    <td class="tg-c3ow">100</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">D435i</td>
-    <td class="tg-0pky">/d435i/imu</td>
-    <td class="tg-0pky">-</td>
-    <td class="tg-c3ow">400</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">D455t</td>
-    <td class="tg-0pky">-</td>
-    <td class="tg-0pky">/d455t/imu</td>
-    <td class="tg-c3ow">400</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">D455b</td>
-    <td class="tg-0pky">/d455b/imu</td>
-    <td class="tg-0pky">/d455b/imu</td>
-    <td class="tg-c3ow">400</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">VN100</td>
-    <td class="tg-0pky">/vn100/imu</td>
-    <td class="tg-0pky">-</td>
-    <td class="tg-c3ow">400</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">VN200</td>
-    <td class="tg-0pky">/vn200/imu</td>
-    <td class="tg-0pky">/vn200/imu</td>
-    <td class="tg-c3ow">400</td>
-  </tr>
-  <tr>
-    <td class="tg-7btt" rowspan="2">Lidar</td>
-    <td class="tg-0pky">Ouster OS1</td>
-    <td class="tg-0pky">/os cloud node/points</td>
-    <td class="tg-0pky">/os cloud node/points</td>
-    <td class="tg-0pky"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/PointCloud2.html" target="_blank" rel="noopener noreferrer">sensor_msgs/PointCloud2</a></td>
-    <td class="tg-c3ow">10</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Livox Mid70</td>
-    <td class="tg-0pky">/livox/lidar</td>
-    <td class="tg-0pky">/livox/lidar</td>
-    <td class="tg-0pky"><a href="https://github.com/Livox-SDK/livox_ros_driver/blob/master/livox_ros_driver/msg/CustomMsg.msg" target="_blank" rel="noopener noreferrer">livox_ros_driver/CustomMsg.msg</a></td>
-    <td class="tg-c3ow">10</td>
-  </tr>
-  <tr>
-    <td class="tg-7btt">UWB</td>
-    <td class="tg-0pky">Link Track P</td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal">/ltp tag0/nlnf3</span><br><span style="font-weight:400;font-style:normal">/ltp tag1/nlnf3</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal">/ltp tag0/nlnf3</span><br><span style="font-weight:400;font-style:normal">/ltp tag1/nlnf3</span></td>
-    <td class="tg-0pky"><a href="https://github.com/nooploop-dev/nlink_parser/blob/master/msg/LinktrackNodeframe3.msg" target="_blank" rel="noopener noreferrer">nlink_parser/LinktrackNodeframe3</a></td>
-    <td class="tg-c3ow">20</td>
-  </tr>
-  <tr>
-    <td class="tg-7btt">GPS</td>
-    <td class="tg-0pky">VN200</td>
-    <td class="tg-0pky">/vn200/GPS</td>
-    <td class="tg-0pky">-</td>
-    <td class="tg-0pky"><a href="https://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/NavSatFix.html" target="_blank" rel="noopener noreferrer">sensor_msgs/NavSatFix</a></td>
-    <td class="tg-c3ow">400</td>
-  </tr>
-</tbody>
-</table>
