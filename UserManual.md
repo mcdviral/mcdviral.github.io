@@ -22,7 +22,7 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
 .tg .tg-nzoj{border-color:inherit;color:#00E;text-align:left;text-decoration:underline;vertical-align:middle}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
-<table class="tg" align="center">
+<table class="tg" align="center" style="undefined;table-layout: fixed; width: 1051px">
 <colgroup>
 <col style="width: 67.75px">
 <col style="width: 103.75px">

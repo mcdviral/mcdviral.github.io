@@ -27,7 +27,7 @@ All ground truths ultimately come from the high accuracy survey-grade prior maps
 
 ## Descrete time ground truth
 
-We provide csv file named pose_inW.csv for each sequence. The content looks like the following:
+For those who only need a traditional discrete-time ground truth for benchmarking SLAM methods, you can use the *pose_inW.csv* associated with each sequence. This data is sampled from the continuous time ground truth at 0.1s interval. The content looks like the following:
 
 ```
 num	t                 x                 y                 z                 qx                  qy                 qz                  qw
@@ -43,9 +43,8 @@ Here, num is the index of the lidar pointcloud in the bag file, t is the time st
 
 ## Continous-time ground truth
 
-(We recommend the following [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sommer_Efficient_Derivative_Computation_for_Cumulative_B-Splines_on_Lie_Groups_CVPR_2020_paper.pdf) for the detail description of B-spline based continuous-time trajectory representation)
-
-The continuous time trajectory can be used to obtain the deskewed pointclouds. A file named spline.csv is provided in the same folder. The content is as follows:
+For more advance users that would like to study the motion distortion on lidar, you can use the *spline.csv* file provided in the same folder (if you are not familar with B-spline, we recommend the following [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sommer_Efficient_Derivative_Computation_for_Cumulative_B-Splines_on_Lie_Groups_CVPR_2020_paper.pdf) and [our technical note](images/bspline_technical_note.pdf) for the detail description of B-spline based continuous-time trajectory representation
+). The *control points* of the spline are listed in this file. The content resembles the following:
 
 ```
 Dt: 0.025, Order: 6, Knots: 24045, MinTime: 1644823132.49097, MaxTime: 1644823733.59097
