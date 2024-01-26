@@ -25,12 +25,12 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
 <table class="tg" align="center" style="undefined;table-layout: fixed; width: 1051px">
 <colgroup>
 <col style="width: 67.75px">
-<col style="width: 103.75px">
+<col style="width: 120.75px">
 <col style="width: 195.75px">
 <col style="width: 195.75px">
 <col style="width: 223.75px">
 <col style="width: 54.75px">
-<col style="width: 209.75px">
+<col style="width: 250.75px">
 </colgroup>
 <thead>
   <tr>
