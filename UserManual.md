@@ -19,18 +19,17 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
 .tg .tg-a890{background-color:#FFF;border-color:inherit;color:#212529;text-align:left;vertical-align:middle}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
 .tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-nzoj{border-color:inherit;color:#00E;text-align:left;text-decoration:underline;vertical-align:middle}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
-<table class="tg" align="center" style="undefined;table-layout: fixed; width: 1051px">
+<table class="tg" align="center">
 <colgroup>
-<col style="width: 67.75px">
-<col style="width: 120.75px">
+<col style="width: 50.75px">
+<col style="width: 200.75px">
 <col style="width: 195.75px">
 <col style="width: 195.75px">
 <col style="width: 223.75px">
 <col style="width: 54.75px">
-<col style="width: 250.75px">
+<col style="width: 300.75px">
 </colgroup>
 <thead>
   <tr>
@@ -98,7 +97,7 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
     <td class="tg-lboi">/d455b/imu</td>
     <td class="tg-lboi">/d455b/imu</td>
     <td class="tg-9wq8">400</td>
-    <td class="tg-nzoj"><a href="https://www.intelrealsense.com/wp-content/uploads/2020/06/Intel-RealSense-D400-Series-Datasheet-June-2020.pdf" target="_blank" rel="noopener noreferrer">See datasheet</a></td>
+    <td class="tg-lboi"><a href="https://www.intelrealsense.com/wp-content/uploads/2020/06/Intel-RealSense-D400-Series-Datasheet-June-2020.pdf" target="_blank" rel="noopener noreferrer">See datasheet</a></td>
   </tr>
   <tr>
     <td class="tg-lboi">VN100</td>
@@ -127,7 +126,7 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
     <td class="tg-lboi">Livox Mid70</td>
     <td class="tg-lboi">/livox/lidar</td>
     <td class="tg-lboi">/livox/lidar</td>
-    <td class="tg-lboi"><a href="https://github.com/Livox-SDK/livox_ros_driver/blob/master/livox_ros_driver/msg/CustomMsg.msg" target="_blank" rel="noopener noreferrer">livox_ros_driver/CustomMsg.msg</a></td>
+    <td class="tg-lboi"><a href="https://github.com/Livox-SDK/livox_ros_driver/blob/master/livox_ros_driver/msg/CustomMsg.msg" target="_blank" rel="noopener noreferrer">livox_ros_driver/CustomMsg</a></td>
     <td class="tg-9wq8">10</td>
     <td class="tg-lboi">1 channel.<br>Points per channel: 9984<br>Point format: see <a href="https://mcdviral.github.io/UserManual.html#point-format" target="_blank" rel="noopener noreferrer">our manual</a></td>
   </tr>
