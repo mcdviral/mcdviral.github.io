@@ -156,7 +156,7 @@ Below are the ROS topics of each sensor modality in MCD. Please click on the lin
 
 ### Resolution and rate
 
-For the **xxx_** sequences, the ouster lidar has 128 channels with 1024 points per channel. For the **yyy_** and **zzz_** sequences, the ouster lidar has 64 channels with 1024 points per channel. In all sequences, the mid70 Livox lidar have one single non-repetitive line with 9984 points per line. All lidars output data at 10 Hz.
+For the **ntu_** sequences, the ouster lidar has 128 channels with 1024 points per channel. For the **kth_** and **tuhh_** sequences, the ouster lidar has 64 channels with 1024 points per channel. In all sequences, the mid70 Livox lidar have one single non-repetitive line with 9984 points per line. All lidars output data at 10 Hz.
 
 ### Point format
 
@@ -228,7 +228,7 @@ The main coordinate systems in MCD is defined as follows:
 </p>
 
 First, the coordinate system of the [prior maps](Groundtruth#survey-grade-prior-map) is referred to as the *World* frame $$\mathtt{W}$$.
-Then the *Body* frame $$\mathtt{B}$$ coincides with the VN100 IMU in the XXX sequences, and the VN200 in the YYY and ZZZ sequences.
+Then the *Body* frame $$\mathtt{B}$$ coincides with the VN100 IMU in the NTU sequences, and the VN200 in the KTH and TUHH sequences.
 Each sensor has a *Sensor* frame $${\mathtt{S}}$$ attached to it.
 
 The extrinsics of the sensors in MCD are declared as transformation matrices $${}^{\mathtt{B}}_{\mathtt{S}}\bf{T} = \begin{bmatrix} {}^{\mathtt{B}}_{\mathtt{S}}\mathrm{R} & {}^{\mathtt{B}}_{\mathtt{S}}\mathrm{t} \\ 0 &1\end{bmatrix} $$, where $${}^{\mathtt{B}}_{\mathtt{S}}\mathrm{R}$$ and $${}^{\mathtt{B}}_{\mathtt{S}}\mathrm{t}$$ are respectively the rotational and translational extrinsics.

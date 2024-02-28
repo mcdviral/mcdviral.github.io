@@ -12,9 +12,9 @@ All ground truths ultimately come from the high accuracy survey-grade prior maps
 
 <table>
   <tr>
-    <th><img src="images/xxx_compressed.gif"  title="xxx_priormap" alt="xxx_priormap">  </th>
-    <th><img src="images/yyy_compressed.gif"  title="yyy_priormap" alt="yyy_priormap">  </th>
-    <th><img src="images/zzz_compressed.gif"  title="zzz_priormap" alt="zzz_priormap"> </th>
+    <th><img src="images/ntu_compressed.gif"  title="ntu_priormap" alt="ntu_priormap">  </th>
+    <th><img src="images/kth_compressed.gif"  title="kth_priormap" alt="kth_priormap">  </th>
+    <th><img src="images/tuhh_compressed.gif"  title="tuhh_priormap" alt="tuhh_priormap"> </th>
   </tr>
   <tr>
     <th> <a href="https://drive.google.com/file/d/17snoVZgPDckqw0TSL_lIZogQZzRUBceC"> Download</a></th>
@@ -23,7 +23,7 @@ All ground truths ultimately come from the high accuracy survey-grade prior maps
   </tr>
 </table>
 
-<!-- <a href=""> <img src="images/xxx.gif" title="xxx_priormap" alt="xxx_priormap"></a> -->
+<!-- <a href=""> <img src="images/ntu.gif" title="ntu_priormap" alt="ntu_priormap"></a> -->
 
 ## Descrete time ground truth
 

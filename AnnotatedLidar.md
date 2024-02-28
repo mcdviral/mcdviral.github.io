@@ -39,79 +39,79 @@ The labelled pointclouds are released as pcd files. To read an pcd file into a n
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/file/d/1WgImzZkAyKIP0tPRTx0hSF-BUVvP2SrS"> xxx_day_01</a></th>
+    <th> <a href="https://drive.google.com/file/d/1WgImzZkAyKIP0tPRTx0hSF-BUVvP2SrS"> ntu_day_01</a></th>
     <th> 6010</th>
-    <th> <img src="images/semantic/xxx_day_01.gif" title="xxx_day_01" alt="xxx_day_01" width="80%" > </th>
+    <th> <img src="images/semantic/ntu_day_01.gif" title="ntu_day_01" alt="ntu_day_01" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/drive/folders/1CE3mX-RRgxSaqKsF_EldTjXXkPMAUM6s?usp=sharing"> xxx_day_02</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/1CE3mX-RRgxSaqKsF_EldTjXXkPMAUM6s?usp=sharing"> ntu_day_02</a></th>
     <th> 2273</th>
-    <th> <img src="images/semantic/xxx_day_02.gif" title="xxx_day_02" alt="xxx_day_02" width="80%" > </th>
+    <th> <img src="images/semantic/ntu_day_02.gif" title="ntu_day_02" alt="ntu_day_02" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/drive/folders/1-zp2JVi3N3e-sn0qP-o03OPF9Dl7f31e?usp=sharing"> xxx_day_10</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/1-zp2JVi3N3e-sn0qP-o03OPF9Dl7f31e?usp=sharing"> ntu_day_10</a></th>
     <th> 3232</th>
-    <th> <img src="images/semantic/xxx_day_10.gif" title="xxx_day_10" alt="xxx_day_10" width="80%" > </th>
+    <th> <img src="images/semantic/ntu_day_10.gif" title="ntu_day_10" alt="ntu_day_10" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/drive/folders/1hPtJYJ7FJGo9S-d3Fh4SYhQhZGpSrM7k?usp=sharing"> xxx_night_13</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/1hPtJYJ7FJGo9S-d3Fh4SYhQhZGpSrM7k?usp=sharing"> ntu_night_13</a></th>
     <th> 2323</th>
-    <th> <img src="images/semantic/xxx_night_13.gif" title="xxx_night_13" alt="xxx_night_13" width="80%" > </th>
+    <th> <img src="images/semantic/ntu_night_13.gif" title="ntu_night_13" alt="ntu_night_13" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
   
   <tr>
-    <th> <a href="https://drive.google.com/drive/folders/1huM89iOravLHYziPzOnRVs0GQqNDqO9y?usp=sharing"> yyy_day_06</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/1huM89iOravLHYziPzOnRVs0GQqNDqO9y?usp=sharing"> kth_day_06</a></th>
     <th> 8893</th>
-    <th> <img src="images/semantic/yyy_day_06.gif" title="yyy_day_06" alt="yyy_day_06" width="80%" > </th>
+    <th> <img src="images/semantic/kth_day_06.gif" title="kth_day_06" alt="kth_day_06" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/drive/folders/1ok9V3ViX_e86KGot7oA9R4TYEBaep6qv?usp=sharing"> yyy_day_09</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/1ok9V3ViX_e86KGot7oA9R4TYEBaep6qv?usp=sharing"> kth_day_09</a></th>
     <th> 7655</th>
-    <th> <img src="images/semantic/yyy_day_09.gif" title="yyy_day_09" alt="yyy_day_09" width="80%" > </th>
+    <th> <img src="images/semantic/kth_day_09.gif" title="kth_day_09" alt="kth_day_09" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/drive/folders/1VxILbf2HgUwPzcNlOZwkW5QjTY6CW3Jk?usp=sharing"> yyy_night_05</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/1VxILbf2HgUwPzcNlOZwkW5QjTY6CW3Jk?usp=sharing"> kth_night_05</a></th>
     <th> 6638</th>
-    <th> <img src="images/semantic/yyy_night_05.gif" title="yyy_night_13" alt="yyy_night_05" width="80%" > </th>
+    <th> <img src="images/semantic/kth_night_05.gif" title="kth_night_13" alt="kth_night_05" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/drive/folders/1Ji8j3nvnYyftCKe4R8TKm4dp-7aVE6Id?usp=sharing"> zzz_day_02</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/1Ji8j3nvnYyftCKe4R8TKm4dp-7aVE6Id?usp=sharing"> tuhh_day_02</a></th>
     <th> 4986</th>
-    <th> <img src="images/semantic/zzz_day_02.gif" title="zzz_day_02" alt="zzz_day_02" width="80%" > </th>
+    <th> <img src="images/semantic/tuhh_day_02.gif" title="tuhh_day_02" alt="tuhh_day_02" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/drive/folders/1y4jdlwaYB7AZPy5HA6FIkoFmqb6eRXNJ?usp=sharing"> zzz_day_03</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/1y4jdlwaYB7AZPy5HA6FIkoFmqb6eRXNJ?usp=sharing"> tuhh_day_03</a></th>
     <th> 8376</th>
-    <th> <img src="images/semantic/zzz_day_03.gif" title="zzz_day_03" alt="zzz_day_03" width="80%" > </th>
+    <th> <img src="images/semantic/tuhh_day_03.gif" title="tuhh_day_03" alt="tuhh_day_03" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/drive/folders/1TkPW0l1DwDzPukq223iVSy0qrz4c1M2a?usp=sharing"> zzz_night_08</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/1TkPW0l1DwDzPukq223iVSy0qrz4c1M2a?usp=sharing"> tuhh_night_08</a></th>
     <th> 7075</th>
-    <th> <img src="images/semantic/zzz_night_08.gif" title="zzz_night_08" alt="zzz_night_08" width="80%" > </th>
+    <th> <img src="images/semantic/tuhh_night_08.gif" title="tuhh_night_08" alt="tuhh_night_08" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/drive/folders/16tWlv9ZuxBUl23u8h7RyH0dZhVrsF_8o?usp=sharing"> zzz_night_09</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/16tWlv9ZuxBUl23u8h7RyH0dZhVrsF_8o?usp=sharing"> tuhh_night_09</a></th>
     <th> 1832</th>
-    <th> <img src="images/semantic/zzz_night_09.gif" title="zzz_night_09" alt="zzz_night_09" width="80%" > </th>
+    <th> <img src="images/semantic/tuhh_night_09.gif" title="tuhh_night_09" alt="tuhh_night_09" width="80%" > </th>
     <!-- <th> Undecided</th> -->
   </tr>
 

@@ -14,9 +14,9 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
   + UWB ranging sensors
 * High resolution large scale survey-grade prior maps
   <p align="center">
-    <img src="images/xxx_rgb_annotated.gif" width="32%"/>
-    <img src="images/yyy_rgb_annotated.gif" width="32%"/>
-    <img src="images/zzz_rgb_annotated.gif" width="32%"/>
+    <img src="images/ntu_rgb_annotated.gif" width="32%"/>
+    <img src="images/kth_rgb_annotated.gif" width="32%"/>
+    <img src="images/tuhh_rgb_annotated.gif" width="32%"/>
   </p>
 * Continuous-time ground truth and [B-Spline python wrapper with rich functionalities](https://github.com/mcdviral/ceva)
   <p align="center">
@@ -25,9 +25,9 @@ The dataset is collected over large-scale campus areas in the Asia and Europe at
   </p>
 * Semantic labels for non-repetitive lidar scans
   <p align="center">
-    <img src="images/semantic/xxx_day_10.gif" width="30%"/>
-    <img src="images/semantic/yyy_night_05.gif" width="30%"/>
-    <img src="images/semantic/zzz_day_02.gif" width="30%"/>
+    <img src="images/semantic/ntu_day_10.gif" width="30%"/>
+    <img src="images/semantic/kth_night_05.gif" width="30%"/>
+    <img src="images/semantic/tuhh_day_02.gif" width="30%"/>
   </p>
 * Several examples on SOTA SLAM and learning methods.
 

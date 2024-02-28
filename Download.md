@@ -9,9 +9,9 @@ Users are strongly recommended to read through the [User Manual](UserManual). It
 
 The calibrated parameters for the sensorsuites are provided in the following yaml files:
 
-[All-Terrain Vehicle](https://drive.google.com/file/d/1zVTBqh4cA1DciWBj5n7BGiexbfan1BBL) (for **xxx_** sequences)
+[All-Terrain Vehicle](https://drive.google.com/file/d/1zVTBqh4cA1DciWBj5n7BGiexbfan1BBL) (for **ntu_** sequences)
 
-[Handheld Setup](https://drive.google.com/file/d/1htr26EE-Y1sHS5J4zaSbauC1XFgIh3Ym) (for **yyy_** and **zzz_** sequences)
+[Handheld Setup](https://drive.google.com/file/d/1htr26EE-Y1sHS5J4zaSbauC1XFgIh3Ym) (for **kth_** and **tuhh_** sequences)
 
 ## ROS bags
 The sequences are captured as rosbags, which are then compressed with bz2 method. User can uncompress the rosbags for less CPU usage at the cost of 3x memory storage.
@@ -59,8 +59,8 @@ We also split the data into different bags based on the sensor type. User can fr
   <tbody>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">0</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1nJxVwgR35p8i0iR1sfcaiHpaXpLpCF8c" rel="noopener noreferrer" target="_blank">xxx_day_01 </a> <br> Duration: 10m2s <br> Size: 41.5 GB</td>
-      <td><a href="https://drive.google.com/file/d/1dow1M-EdRY1ZvUK6-glqu_dzkMe5Qf5F"> <img src="images/gtpreview/xxx_day_01_gtpreview.png" title="xxx_day_01" alt="xxx_day_01_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1nJxVwgR35p8i0iR1sfcaiHpaXpLpCF8c" rel="noopener noreferrer" target="_blank">ntu_day_01 </a> <br> Duration: 10m2s <br> Size: 41.5 GB</td>
+      <td><a href="https://drive.google.com/file/d/1dow1M-EdRY1ZvUK6-glqu_dzkMe5Qf5F"> <img src="images/gtpreview/ntu_day_01_gtpreview.png" title="ntu_day_01" alt="ntu_day_01_gt"></a></td>
       <td><a href="https://drive.google.com/file/d/1E4oTZKaajNJA8KT9hcOsREU4If2mAHle" rel="noopener noreferrer" target="_blank">d435i<br>(13.3 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1u7nmGxrm0LJyIiYKPincojHcBOEw59kh" rel="noopener noreferrer" target="_blank">d455b<br>(13.8 GB)</a></td>
       <td>-</td>
@@ -72,8 +72,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">1</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1Nt_khn7u8y3d1TIjY8Lyht2vI8qCG6Sy" rel="noopener noreferrer" target="_blank">xxx_day_02 </a> <br> Duration: 3m49s <br> Size: 14.8 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1e2VCn7PxlSbVsRLagbtUBU35TeylD93D"> <img src="images/gtpreview/xxx_day_02_gtpreview.png" title="xxx_day_02" alt="xxx_day_02_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1Nt_khn7u8y3d1TIjY8Lyht2vI8qCG6Sy" rel="noopener noreferrer" target="_blank">ntu_day_02 </a> <br> Duration: 3m49s <br> Size: 14.8 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1e2VCn7PxlSbVsRLagbtUBU35TeylD93D"> <img src="images/gtpreview/ntu_day_02_gtpreview.png" title="ntu_day_02" alt="ntu_day_02_gt"></a></td>
       <td><a href="https://drive.google.com/file/d/1svtLKBcoxixWZjatwSP1MtJEmVTPE3wA" rel="noopener noreferrer" target="_blank">d435i<br>(4.7 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1sfQdn6MGt4BsSx6PQtDdMZSiwfFcsihk" rel="noopener noreferrer" target="_blank">d455b<br>(4.9 GB)</a></td>
       <td>-</td>
@@ -85,8 +85,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">2</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1IqB9k_5TQU4xVhQD060XB-T1ISORCeEE" rel="noopener noreferrer" target="_blank">xxx_day_10 </a> <br> Duration: 5m25s <br> Size: 20.9 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/18sthXHBMw95V0TemGv4_dRR4WVwYKLf7"> <img src="images/gtpreview/xxx_day_10_gtpreview.png" title="xxx_day_10" alt="xxx_day_10_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1IqB9k_5TQU4xVhQD060XB-T1ISORCeEE" rel="noopener noreferrer" target="_blank">ntu_day_10 </a> <br> Duration: 5m25s <br> Size: 20.9 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/18sthXHBMw95V0TemGv4_dRR4WVwYKLf7"> <img src="images/gtpreview/ntu_day_10_gtpreview.png" title="ntu_day_10" alt="ntu_day_10_gt"></a></td>
       <td><a href="https://drive.google.com/file/d/1EyC3I7jIO-5ca5qrYxE4eoD1qTRKkOo5" rel="noopener noreferrer" target="_blank">d435i<br>(6.5 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1eGdELGvE2uCq063EexoK9E7I1hF3_Eke" rel="noopener noreferrer" target="_blank">d455b<br>(6.8 GB)</a></td>
       <td>-</td>
@@ -98,8 +98,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">3</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1gi18OHqGDTNO-ZkRjP0_wJ5jizResVO-" rel="noopener noreferrer" target="_blank">xxx_night_04 </a> <br> Duration: 4m57s <br> Size: 22.1 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/147agAWo0h_ySogl_n3xNHa9kpkA9kXS2"> <img src="images/gtpreview/xxx_night_04_gtpreview.png" title="xxx_night_04" alt="xxx_night_04_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1gi18OHqGDTNO-ZkRjP0_wJ5jizResVO-" rel="noopener noreferrer" target="_blank">ntu_night_04 </a> <br> Duration: 4m57s <br> Size: 22.1 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/147agAWo0h_ySogl_n3xNHa9kpkA9kXS2"> <img src="images/gtpreview/ntu_night_04_gtpreview.png" title="ntu_night_04" alt="ntu_night_04_gt"></a></td>
       <td><a href="https://drive.google.com/file/d/1Uwhwi41yzPeAWCOmhNJlcaLM1PI8x-nh" rel="noopener noreferrer" target="_blank">d435i<br>(6.7 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/13kmnVVPhTmOHJeuNu50A60x_bC5nchT5" rel="noopener noreferrer" target="_blank">d455b<br>(8.4 GB)</a></td>
       <td>-</td>
@@ -111,8 +111,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">4</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1UGyFtPRjDiGDUDfq4iXHiPU1EzilF2HI" rel="noopener noreferrer" target="_blank">xxx_night_08 </a> <br> Duration: 7m47s <br> Size: 31.9 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/18z9NCxrI7Dr4N6q8P6y4FFRIuofJav6f"> <img src="images/gtpreview/xxx_night_08_gtpreview.png" title="xxx_night_08" alt="xxx_night_08_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1UGyFtPRjDiGDUDfq4iXHiPU1EzilF2HI" rel="noopener noreferrer" target="_blank">ntu_night_08 </a> <br> Duration: 7m47s <br> Size: 31.9 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/18z9NCxrI7Dr4N6q8P6y4FFRIuofJav6f"> <img src="images/gtpreview/ntu_night_08_gtpreview.png" title="ntu_night_08" alt="ntu_night_08_gt"></a></td>
       <td><a href="https://drive.google.com/file/d/19sVbwKINJjHRWtbGZu-Sgxj4GHbAMZvR" rel="noopener noreferrer" target="_blank">d435i<br>(8.0 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1FSDLGZzZtXibRwyLarjO6pF4FOgeQYC3" rel="noopener noreferrer" target="_blank">d455b<br>(12.9 GB)</a></td>
       <td>-</td>
@@ -124,8 +124,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">5</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1samHxI8NdM73uOtLT7KSPFbLppU1ffGy" rel="noopener noreferrer" target="_blank">xxx_night_13 </a> <br> Duration: 3m54s <br> Size: 17.3 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/11eORR0sbmNJzY_Vd7P5v52V3OVPYLqLp"> <img src="images/gtpreview/xxx_night_13_gtpreview.png" title="xxx_night_13" alt="xxx_night_13_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1samHxI8NdM73uOtLT7KSPFbLppU1ffGy" rel="noopener noreferrer" target="_blank">ntu_night_13 </a> <br> Duration: 3m54s <br> Size: 17.3 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/11eORR0sbmNJzY_Vd7P5v52V3OVPYLqLp"> <img src="images/gtpreview/ntu_night_13_gtpreview.png" title="ntu_night_13" alt="ntu_night_13_gt"></a></td>
       <td><a href="https://drive.google.com/file/d/1q9p1wj9WsZS8xOFL9Uad9RKe-chfmahB" rel="noopener noreferrer" target="_blank">d435i<br>(5.5 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/13iEg1GRRqnyddGz4yVugflwK4Ayoy1DN" rel="noopener noreferrer" target="_blank">d455b<br>(6.6 GB)</a></td>
       <td>-</td>
@@ -137,8 +137,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">6</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1k5nQ81_1nA1Ng8IlQ1SghwBNmIUgbS0o" rel="noopener noreferrer" target="_blank">yyy_day_06 </a> <br> Duration: 14m51s <br> Size: 43.0 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1hEGWDSyocmeubxHKfjATNHkfd1wqZCn5"> <img src="images/gtpreview/yyy_day_06_gtpreview.png" title="yyy_day_06" alt="yyy_day_06_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1k5nQ81_1nA1Ng8IlQ1SghwBNmIUgbS0o" rel="noopener noreferrer" target="_blank">kth_day_06 </a> <br> Duration: 14m51s <br> Size: 43.0 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1hEGWDSyocmeubxHKfjATNHkfd1wqZCn5"> <img src="images/gtpreview/kth_day_06_gtpreview.png" title="kth_day_06" alt="kth_day_06_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1kZZhhqXT_pXLvLhlfGl5Ip4XpLCHF6_e" rel="noopener noreferrer" target="_blank">d455b<br>(16.2 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1j_SfAzs3jZJOUmV-DA11Ixrln00pNb5x" rel="noopener noreferrer" target="_blank">d455t<br>(16.4 GB)</a></td>
@@ -150,8 +150,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">7</span></th>
-      <td><a href="https://drive.google.com/drive/folders/17bE6-s3QjB7JJlmPYNLsJkTQgnHTeEyr" rel="noopener noreferrer" target="_blank">yyy_day_09 </a> <br> Duration: 12m47s <br> Size: 23.4 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1SF6D-9OHM7_-c1Zwmfe-pCrL-fwfC3RP"> <img src="images/gtpreview/yyy_day_09_gtpreview.png" title="yyy_day_09" alt="yyy_day_09_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/17bE6-s3QjB7JJlmPYNLsJkTQgnHTeEyr" rel="noopener noreferrer" target="_blank">kth_day_09 </a> <br> Duration: 12m47s <br> Size: 23.4 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1SF6D-9OHM7_-c1Zwmfe-pCrL-fwfC3RP"> <img src="images/gtpreview/kth_day_09_gtpreview.png" title="kth_day_09" alt="kth_day_09_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1fGxxe5JGvkNC-BVyHeLdLfdTNkhTPC9i" rel="noopener noreferrer" target="_blank">d455b<br>(7.1 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1yyrmxYYENBe5jmsfH6vONhvywB71Tzf8" rel="noopener noreferrer" target="_blank">d455t<br>(7.3 GB)</a></td>
@@ -163,8 +163,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">8</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1bhGBi9DqoCxtqY3hbz666kCBuxVIwXQT" rel="noopener noreferrer" target="_blank">yyy_day_10 </a> <br> Duration: 10m15s <br> Size: 27.3 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1Zj2xREkUryntZ_gnYBARdu4Be3dmQsjr"> <img src="images/gtpreview/yyy_day_10_gtpreview.png" title="yyy_day_10" alt="yyy_day_10_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1bhGBi9DqoCxtqY3hbz666kCBuxVIwXQT" rel="noopener noreferrer" target="_blank">kth_day_10 </a> <br> Duration: 10m15s <br> Size: 27.3 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1Zj2xREkUryntZ_gnYBARdu4Be3dmQsjr"> <img src="images/gtpreview/kth_day_10_gtpreview.png" title="kth_day_10" alt="kth_day_10_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1ww7LdYTnWgsQJ5YI4YgCkvdjIQBBn9Vp" rel="noopener noreferrer" target="_blank">d455b<br>(10.0 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1X2Sbzm-zFKhE7MW9-dNJrv-2eyD2iFuh" rel="noopener noreferrer" target="_blank">d455t<br>(10.1 GB)</a></td>
@@ -176,8 +176,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">9</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1YZTvQ1QI86HW8C7Ifq6VFC02fQRtMMCw" rel="noopener noreferrer" target="_blank">yyy_night_01 </a> <br> Duration: 16m9s <br> Size: 43.7 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1zw4bE66YYGTXM-kJ_vT5R3kQZn00YSIp"> <img src="images/gtpreview/yyy_night_01_gtpreview.png" title="yyy_night_01" alt="yyy_night_01_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1YZTvQ1QI86HW8C7Ifq6VFC02fQRtMMCw" rel="noopener noreferrer" target="_blank">kth_night_01 </a> <br> Duration: 16m9s <br> Size: 43.7 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1zw4bE66YYGTXM-kJ_vT5R3kQZn00YSIp"> <img src="images/gtpreview/kth_night_01_gtpreview.png" title="kth_night_01" alt="kth_night_01_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1xouzt8EHb9IlO_koXr_VsCwLh7qhUjyD" rel="noopener noreferrer" target="_blank">d455b<br>(18.0 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1dQ1EgGcMePdEfXrtXyjVvyWgZSgVFNJz" rel="noopener noreferrer" target="_blank">d455t<br>(14.5 GB)</a></td>
@@ -189,8 +189,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">10</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1GJ2ZGsBBwiYY3DHk0XCE9cwV2s-xdM7a" rel="noopener noreferrer" target="_blank">yyy_night_04 </a> <br> Duration: 12m26s <br> Size: 14.9 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1re8CP1qP4RgJ0nMfEmsGTcsL6Dw47eNh"> <img src="images/gtpreview/yyy_night_04_gtpreview.png" title="yyy_night_04" alt="yyy_night_04_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1GJ2ZGsBBwiYY3DHk0XCE9cwV2s-xdM7a" rel="noopener noreferrer" target="_blank">kth_night_04 </a> <br> Duration: 12m26s <br> Size: 14.9 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1re8CP1qP4RgJ0nMfEmsGTcsL6Dw47eNh"> <img src="images/gtpreview/kth_night_04_gtpreview.png" title="kth_night_04" alt="kth_night_04_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/15NtThX00mL6FIE_pvmoqkYTCisnZ9Ao2" rel="noopener noreferrer" target="_blank">d455b<br>(3.2 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1HhsSyflVhO1JwOwgiVQv4f39kqRku4RK" rel="noopener noreferrer" target="_blank">d455t<br>(3.2 GB)</a></td>
@@ -202,8 +202,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">11</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1yK8xOTgZCiWCxcR_lVMKSfVwkgm5XYso" rel="noopener noreferrer" target="_blank">yyy_night_05 </a> <br> Duration: 11m5s <br> Size: 14.2 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1ilti3k-l9mtHzxCgR4odC2Mnx7sCVAyZ"> <img src="images/gtpreview/yyy_night_05_gtpreview.png" title="yyy_night_05" alt="yyy_night_05_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1yK8xOTgZCiWCxcR_lVMKSfVwkgm5XYso" rel="noopener noreferrer" target="_blank">kth_night_05 </a> <br> Duration: 11m5s <br> Size: 14.2 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1ilti3k-l9mtHzxCgR4odC2Mnx7sCVAyZ"> <img src="images/gtpreview/kth_night_05_gtpreview.png" title="kth_night_05" alt="kth_night_05_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1YD0s995Js23-en4NDvaHO_ifnfEnPdCq" rel="noopener noreferrer" target="_blank">d455b<br>(3.3 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1lWzl2fnOGrnXqqEZ4Ye6jIPRtrwa9ifA" rel="noopener noreferrer" target="_blank">d455t<br>(3.3 GB)</a></td>
@@ -215,8 +215,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">12</span></th>
-      <td><a href="https://drive.google.com/drive/folders/19wgO-cuvhmZXxg24eMPrRH69GntI98PH" rel="noopener noreferrer" target="_blank">zzz_day_02 </a> <br> Duration: 8m20s <br> Size: 29.5 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1tXC4rab1f98UwruunFM5I1Ea9EaRY9KD"> <img src="images/gtpreview/zzz_day_02_gtpreview.png" title="zzz_day_02" alt="zzz_day_02_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/19wgO-cuvhmZXxg24eMPrRH69GntI98PH" rel="noopener noreferrer" target="_blank">tuhh_day_02 </a> <br> Duration: 8m20s <br> Size: 29.5 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1tXC4rab1f98UwruunFM5I1Ea9EaRY9KD"> <img src="images/gtpreview/tuhh_day_02_gtpreview.png" title="tuhh_day_02" alt="tuhh_day_02_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1T-eZ__o3h7Jctc0XXHfP86FlVQ_sYFHD" rel="noopener noreferrer" target="_blank">d455b<br>(11.8 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1NQLfz_dWgECWxpCNljHVrrDUUXmR5lfo" rel="noopener noreferrer" target="_blank">d455t<br>(11.8 GB)</a></td>
@@ -228,8 +228,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">13</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1E21qhp4J1BED41cF_2R0Df-_UOC8Rt2V" rel="noopener noreferrer" target="_blank">zzz_day_03 </a> <br> Duration: 13m59s <br> Size: 51.3 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1tE6EcGTLCqlOWCv48crekKP0KLAf-t7R"> <img src="images/gtpreview/zzz_day_03_gtpreview.png" title="zzz_day_03" alt="zzz_day_03_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1E21qhp4J1BED41cF_2R0Df-_UOC8Rt2V" rel="noopener noreferrer" target="_blank">tuhh_day_03 </a> <br> Duration: 13m59s <br> Size: 51.3 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1tE6EcGTLCqlOWCv48crekKP0KLAf-t7R"> <img src="images/gtpreview/tuhh_day_03_gtpreview.png" title="tuhh_day_03" alt="tuhh_day_03_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1raHVdY1F5tIkYc0y2DngEbZSAKNajxBI" rel="noopener noreferrer" target="_blank">d455b<br>(20.5 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1LnKeiYqo06tq1k-SuCd-3oC7s3gvnflj" rel="noopener noreferrer" target="_blank">d455t<br>(20.6 GB)</a></td>
@@ -241,8 +241,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">14</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1Wby27hPjiWYfSHvULzIInChXxV8ISLVS" rel="noopener noreferrer" target="_blank">zzz_day_04 </a> <br> Duration: 3m8s <br> Size: 12.5 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1EIZaO9_whPANXXjf1CxDPZ3AeelkAtKO"> <img src="images/gtpreview/zzz_day_04_gtpreview.png" title="zzz_day_04" alt="zzz_day_04_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1Wby27hPjiWYfSHvULzIInChXxV8ISLVS" rel="noopener noreferrer" target="_blank">tuhh_day_04 </a> <br> Duration: 3m8s <br> Size: 12.5 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1EIZaO9_whPANXXjf1CxDPZ3AeelkAtKO"> <img src="images/gtpreview/tuhh_day_04_gtpreview.png" title="tuhh_day_04" alt="tuhh_day_04_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1_N9RYr7EauzCH97yu9XvO5bw-AeUd_t-" rel="noopener noreferrer" target="_blank">d455b<br>(5.1 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1jLteGEXqN5yXf86WqiUBCaZrjcBIVPSa" rel="noopener noreferrer" target="_blank">d455t<br>(5.1 GB)</a></td>
@@ -254,8 +254,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">15</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1FC9ckLRsJ48vvRPY2VJhQtFuT4qLIHo-" rel="noopener noreferrer" target="_blank">zzz_night_07 </a> <br> Duration: 7m24s <br> Size: 10.2 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1faGFvn0THoMCQOXGcTNFmkUm7IwPntUv"> <img src="images/gtpreview/zzz_night_07_gtpreview.png" title="zzz_night_07" alt="zzz_night_07_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1FC9ckLRsJ48vvRPY2VJhQtFuT4qLIHo-" rel="noopener noreferrer" target="_blank">tuhh_night_07 </a> <br> Duration: 7m24s <br> Size: 10.2 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1faGFvn0THoMCQOXGcTNFmkUm7IwPntUv"> <img src="images/gtpreview/tuhh_night_07_gtpreview.png" title="tuhh_night_07" alt="tuhh_night_07_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1lGauAFszLU5JzVuevKx1Sr6JFcmgASfI" rel="noopener noreferrer" target="_blank">d455b<br>(2.3 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1Id9WG_3Nk5agbut1dKFVxFsEJm-hXCGo" rel="noopener noreferrer" target="_blank">d455t<br>(2.6 GB)</a></td>
@@ -267,8 +267,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">16</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1hBPyw1fXcOGeW98JCLL2nmZ-TCKxhqvt" rel="noopener noreferrer" target="_blank">zzz_night_08 </a> <br> Duration: 11m49s <br> Size: 16.8 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1c0aZmKB3JPdiyvn-809pSiZ6aPGaVyYf"> <img src="images/gtpreview/zzz_night_08_gtpreview.png" title="zzz_night_08" alt="zzz_night_08_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1hBPyw1fXcOGeW98JCLL2nmZ-TCKxhqvt" rel="noopener noreferrer" target="_blank">tuhh_night_08 </a> <br> Duration: 11m49s <br> Size: 16.8 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1c0aZmKB3JPdiyvn-809pSiZ6aPGaVyYf"> <img src="images/gtpreview/tuhh_night_08_gtpreview.png" title="tuhh_night_08" alt="tuhh_night_08_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1ilQ4Npu0Y2WaSro4xJDcCqgk3iMSX4Bp" rel="noopener noreferrer" target="_blank">d455b<br>(4.0 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1GaxDUF04_00x-qt_oYB78HxLjz3XrE9Y" rel="noopener noreferrer" target="_blank">d455t<br>(4.2 GB)</a></td>
@@ -280,8 +280,8 @@ We also split the data into different bags based on the sensor type. User can fr
     </tr>
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">17</span></th>
-      <td><a href="https://drive.google.com/drive/folders/1nEPiTXkVmLIhmBOVNpwSAEgnAXupnAxx" rel="noopener noreferrer" target="_blank">zzz_night_09 </a> <br> Duration: 3m5s <br> Size: 3.5 GB</td>
-      <td><a href="https://drive.google.com/drive/u/1/folders/1gEatbHzdiDBuDtCP0MyOzITEgj0HkOLs"> <img src="images/gtpreview/zzz_night_09_gtpreview.png" title="zzz_night_09" alt="zzz_night_09_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1nEPiTXkVmLIhmBOVNpwSAEgnAXupnAxx" rel="noopener noreferrer" target="_blank">tuhh_night_09 </a> <br> Duration: 3m5s <br> Size: 3.5 GB</td>
+      <td><a href="https://drive.google.com/drive/u/1/folders/1gEatbHzdiDBuDtCP0MyOzITEgj0HkOLs"> <img src="images/gtpreview/tuhh_night_09_gtpreview.png" title="tuhh_night_09" alt="tuhh_night_09_gt"></a></td>
       <td>-</td>
       <td><a href="https://drive.google.com/file/d/1VmHgEj6GI0mPhLOA-gJo1UG8G9FrM26c" rel="noopener noreferrer" target="_blank">d455b<br>(632 MB)</a></td>
       <td><a href="https://drive.google.com/file/d/1mIp0weY6DPhdouJkqAiBIis2rYil5KJQ" rel="noopener noreferrer" target="_blank">d455t<br>(605 MB)</a></td>
