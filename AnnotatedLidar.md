@@ -39,7 +39,7 @@ The labelled pointclouds are released as pcd files. To read an pcd file into a n
   </tr>
 
   <tr>
-    <th> <a href="https://drive.google.com/file/d/1WgImzZkAyKIP0tPRTx0hSF-BUVvP2SrS"> ntu_day_01</a></th>
+    <th> <a href="https://drive.google.com/drive/folders/1roS3YjU0BC_O3QHWJhKgrEw5bldQ33Wb?usp=sharing"> ntu_day_01</a></th>
     <th> 6010</th>
     <th> <img src="images/semantic/ntu_day_01.gif" title="ntu_day_01" alt="ntu_day_01" width="80%" > </th>
     <!-- <th> Undecided</th> -->

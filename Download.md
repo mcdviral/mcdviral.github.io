@@ -60,7 +60,7 @@ We also split the data into different bags based on the sensor type. User can fr
     <tr>
       <th class="tg-mypc"><span style="font-weight:bold">0</span></th>
       <td><a href="https://drive.google.com/drive/folders/1nJxVwgR35p8i0iR1sfcaiHpaXpLpCF8c" rel="noopener noreferrer" target="_blank">ntu_day_01 </a> <br> Duration: 10m2s <br> Size: 41.5 GB</td>
-      <td><a href="https://drive.google.com/file/d/1dow1M-EdRY1ZvUK6-glqu_dzkMe5Qf5F"> <img src="images/gtpreview/ntu_day_01_gtpreview.png" title="ntu_day_01" alt="ntu_day_01_gt"></a></td>
+      <td><a href="https://drive.google.com/drive/folders/1ubgZ6djQF_e1_mZKbxYpH7v4AsGxhgXa"> <img src="images/gtpreview/ntu_day_01_gtpreview.png" title="ntu_day_01" alt="ntu_day_01_gt"></a></td>
       <td><a href="https://drive.google.com/file/d/1E4oTZKaajNJA8KT9hcOsREU4If2mAHle" rel="noopener noreferrer" target="_blank">d435i<br>(13.3 GB)</a></td>
       <td><a href="https://drive.google.com/file/d/1u7nmGxrm0LJyIiYKPincojHcBOEw59kh" rel="noopener noreferrer" target="_blank">d455b<br>(13.8 GB)</a></td>
       <td>-</td>
