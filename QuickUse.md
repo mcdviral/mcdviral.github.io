@@ -4,32 +4,17 @@ sort: 5
 
 # Quick Use
 
-TBD
+## SLAM 
 
-<!-- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow">Method</th>
-    <th class="tg-c3ow">Repository</th>
-  </tr>
-</thead>
-<tbody>
-<tr>
-    <td class="tg-0pky">SLICT</td>
-    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/slict/blob/master/launch/run_mcdviral.launch"><span style="color:#905">https://github.com/brytsknguyen/SLICT</span></a></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">VINS-Fusion</td>
-    <td class="tg-0pky"><a href="https://github.com/mcdviral/VINS-Fusion_Noetic_Focal/blob/master/vins_estimator/launch/run_mcdviral.launch"><span style="color:#905">https://github.com/mcdviral/VINS-Fusion_Noetic_Focal</span></a></td>
-  </tr>
-</tbody>
-</table> -->
+We assume that you have downloaded the rosbag files to a folder `/path/to/MCD` as in [Fig. 1](#data-organization):
+
+<figure style="float: right; margin-left: 10px;">
+  <img src="images/data_path.png" alt="Description of the image">
+  <figcaption id="data-organization">Fig. 1: Recommended organization of MCD data.</figcaption>
+</figure>
+
+Below are some SLAM methods that have been benchmarked on MCD. Please follow the installation instructions at each repository. After compiling, modify the `data_path` argument in the `run_mcdviral.launch`. Hence, you should be able to launch the experiment on an sequence MCD by `roslaunch fast_lio run_mcd.launch`.
+
+* FAST_LIO: [https://github.com/brytsknguyen/FAST_LIO](https://github.com/brytsknguyen/FAST_LIO)
+* SLICT: [https://github.com/brytsknguyen/slict](https://github.com/brytsknguyen/slict)
+* CLIC: 
