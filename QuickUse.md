@@ -81,3 +81,6 @@ If you are interested in having your method listed here. Please prepare your lau
       <rosparam file="$(find slict)/config/mcdviral_$(arg dataset_cfg).yaml" command="load"/>
     </node> -->
   ```
+#### LIO-SAM
+  * Link: [https://github.com/brytsknguyen/LIO-SAM](https://github.com/brytsknguyen/LIO-SAM/blob/master/launch/run_mcdviral.launch)
+  * The default configuration is with ouster lidar. Changing to merged pointcloud or livox pointcloud is similar to the previous cases.
