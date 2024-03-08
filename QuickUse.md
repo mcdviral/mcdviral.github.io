@@ -84,3 +84,12 @@ If you are interested in having your method listed here. Please prepare your lau
 #### LIO-SAM
   * Link: [https://github.com/brytsknguyen/LIO-SAM](https://github.com/brytsknguyen/LIO-SAM/blob/master/launch/run_mcdviral.launch)
   * The default configuration is with ouster lidar. Changing to merged pointcloud or livox pointcloud is similar to the previous cases.
+
+### VIO methods
+TBD
+
+### Ranging-aided Methods
+TBD
+
+## Semantic Segmentation
+TBD
