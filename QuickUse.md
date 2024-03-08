@@ -73,11 +73,11 @@ If you are interested in having your method listed here. Please prepare your lau
   * Currently the launch file is set to run with LIVOX only mode. To change to ouster, you can change the `lidar_odom_yaml` param at [here](https://github.com/brytsknguyen/clic/blob/master/config/ct_odometry_mcdviral_atv.yaml#L13C3-L13C18) and [here](https://github.com/brytsknguyen/clic/blob/master/config/ct_odometry_mcdviral_hhs.yaml#L13C3-L13C18).
   * To run with merged lidar, change the `lidar_odom_yaml` to `/mcdviral_atv/lidar_mcdviral.yaml` in the same way, and uncomment the following part in the launch file:
   ```html
-  <!-- Run the livox to ouster converter -->
-  <!-- <node pkg="slict" type="slict_livox_to_ouster" name="slict_livox_to_ouster" respawn="false" output="log" required="true"></node>   -->
+    <!-- Run the livox to ouster converter -->
+    <!-- <node pkg="slict" type="slict_livox_to_ouster" name="slict_livox_to_ouster" respawn="false" output="log" required="true"></node>   -->
 
-  <!-- Create the merge pointcloud -->
-  <!-- <node pkg="slict" type="slict_merge_lidar" name="slict_merge_lidar" respawn="true" output="screen" required="false">
-    <rosparam file="$(find slict)/config/mcdviral_$(arg dataset_cfg).yaml" command="load"/> -->
-  </node>
+    <!-- Create the merge pointcloud -->
+    <!-- <node pkg="slict" type="slict_merge_lidar" name="slict_merge_lidar" respawn="true" output="screen" required="false">
+      <rosparam file="$(find slict)/config/mcdviral_$(arg dataset_cfg).yaml" command="load"/>
+    </node> -->
   ```
