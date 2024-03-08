@@ -6,17 +6,55 @@ sort: 5
 
 ## SLAM 
 
-We assume that you have downloaded the rosbag files to a folder `/path/to/MCD` as in [Fig. 1](#data-organization):
-
 <figure style="float: right; margin-left: 10px;">
-  <img src="images/data_path.png" alt="Description of the image">
+  <img src="images/data_path.png" alt="SLICT CONFIG" style="width: auto; height: 300px;">
   <figcaption id="data-organization">Fig. 1: Recommended organization of MCD data.</figcaption>
 </figure>
 
-Below are some SLAM methods that have been benchmarked on MCD. Please follow the installation instructions at each repository. After compiling, modify the `data_path` argument in the `run_mcdviral.launch`. Hence, you should be able to launch the experiment on an sequence MCD by `roslaunch fast_lio run_mcd.launch`.
+We assume that you have downloaded the rosbag files to a folder `/path/to/MCD` as in [Fig. 1](#data-organization):
 
-* FAST_LIO: [https://github.com/brytsknguyen/FAST_LIO](https://github.com/brytsknguyen/FAST_LIO/blob/master/launch/run_mcdviral.launch)
-* SLICT: [https://github.com/brytsknguyen/slict](https://github.com/brytsknguyen/slict/blob/master/launch/run_mcdviral.launch)
-* DLIO: [https://github.com/brytsknguyen/dlio](https://github.com/brytsknguyen/slict/blob/master/launch/run_mcdviral.launch)
-* CLIC (Lidar-Inertial-Odometry mode only): [https://github.com/brytsknguyen/clic](https://github.com/brytsknguyen/clic/blob/master/launch/run_mcdviral.launch)
+We try to create a consistent settings for the benchmark. Specifically, after compiling the code successfully, one only needs to seek out the `run_mcdviral.launch` file, modify the `data_path` and `bag_file` arguments, and then launch the method with `roslaunch <method> run_mcdviral.launch`. Some extra configurations for each method will also be noted.
+
+### LIO methods
+
+The methods below can be configured to work in ouster-only mode, livox-only mode, or merged ouster-livox mode.
+
+#### SLICT
+  * Repo: [https://github.com/brytsknguyen/slict](https://github.com/brytsknguyen/slict/blob/master/launch/run_mcdviral.launch)
+  * **We recommend you test out this method successfully so that other methods can depend on some of its utilities.**
+  * To configure SLICT to work with only ouster or livox, simply comment out the extrinsics in the `slict/config/mcdviral_atv.yaml` and `slict/config/mcdviral_hhs.yaml` as follows.
+<div style="text-align:center;">
+<figure>
+  <img src="images/slict_merged.png" alt="SLICT CONFIG" style="width: auto; height: 250px;">
+  <img src="images/slict_ouster.png" alt="SLICT CONFIG" style="width: auto; height: 250px;">
+  <img src="images/slict_livox.png"  alt="SLICT CONFIG" style="width: auto; height: 250px;">
+</figure>
+</div>
+
+#### FAST_LIO
+* Repo: [https://github.com/brytsknguyen/FAST_LIO](https://github.com/brytsknguyen/FAST_LIO/blob/master/launch/run_mcdviral.launch)
+* The included `run_mcdviral.launch` file uses `slict_livox_to_ouster` and `slict_merge_lidar` in SLICT to convert livox pointcloud to ouster and them merge it with the ouster pointcloud to make a single input. You can change the file `slict/config/mcdviral_atv.yaml` to run only the ouster or livox lidar.
+* Alternatively you want to run ouster and livox only without relying on SLICT, you can comment out the `slict_livox_to_ouster` and `slict_merge_lidar` nodes and change the config file in `run_mcdviral.launch`:
+```html
+    <!-- Chose the config file based on the sequence names -->
+    <arg name="config_file" value="mcdviral_atv" if="$(eval 'ntu_'  in bag_file)" />
+    <arg name="config_file" value="mcdviral_hhs" if="$(eval 'kth_'  in bag_file)" />
+    <arg name="config_file" value="mcdviral_hhs" if="$(eval 'tuhh_' in bag_file)" />
+
+    <rosparam command="load" file="$(find fast_lio)/config/$(arg config_file)_ouster.yaml" /> <!-- CHANGE TO _livox -->
+
+    <!-- Run the livox to ouster converter -->
+    <!-- <node pkg="slict" type="slict_livox_to_ouster" name="slict_livox_to_ouster" respawn="false" output="log" required="true"></node>   -->
+    
+    <!-- Create the merge pointcloud -->
+    <!-- <node pkg="slict" type="slict_merge_lidar" name="slict_merge_lidar" respawn="true" output="screen" required="false">
+        <rosparam file="$(find slict)/config/$(arg config_file).yaml" command="load"/>
+    </node> -->
+```
+
+#### DLIO
+* Repo [https://github.com/brytsknguyen/dlio](https://github.com/brytsknguyen/slict/blob/master/launch/run_mcdviral.launch)
+
+#### CLIC
+  * Lidar-Inertial-Odometry mode only: [https://github.com/brytsknguyen/clic](https://github.com/brytsknguyen/clic/blob/master/launch/run_mcdviral.launch)
   * Note: you will also have to set the path to `clic/config` folder [here](https://github.com/brytsknguyen/clic/blob/7369b0109a40fc8de9600ad22013603606b9aadb/config/ct_odometry_mcdviral_atv.yaml#L5) and [here](https://github.com/brytsknguyen/clic/blob/7369b0109a40fc8de9600ad22013603606b9aadb/config/ct_odometry_mcdviral_hhs.yaml#L5)
