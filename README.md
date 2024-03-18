@@ -51,8 +51,8 @@ If you use any resource on this website in your work, please cite our work as:
   license = {CC BY-NC-SA 4.0},
   url     = {https://mcdviral.github.io/},
   version = {1.0},
-  year    = {2023},
-  month   = {11}
+  year    = {2024},
+  month   = {6}
 }
 ```
 
