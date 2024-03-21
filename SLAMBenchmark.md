@@ -43,7 +43,7 @@ If you are interested in having your method listed here. Please prepare your lau
 ### FAST_LIO
   * Link: [https://github.com/brytsknguyen/FAST_LIO](https://github.com/brytsknguyen/FAST_LIO/blob/master/launch/run_mcdviral.launch)
   * The included `run_mcdviral.launch` file uses `slict_livox_to_ouster` and `slict_merge_lidar` in SLICT to convert livox pointcloud to ouster and them merge it with the ouster pointcloud to make a single input. You can change the file `slict/config/mcdviral_atv.yaml` to run only the ouster or livox lidar as in the SLICT case.
-  * Alternatively you want to run ouster and livox only without relying on SLICT, you can comment out the `slict_livox_to_ouster` and `slict_merge_lidar` nodes and change the config file in `run_mcdviral.launch`:
+  * Alternatively if you insist on running ouster (1 lidar only) and livox only without relying on SLICT, you can comment out the `slict_livox_to_ouster` and `slict_merge_lidar` nodes and change the config file in `run_mcdviral.launch`:
   ```html
       <!-- Chose the config file based on the sequence names -->
       <arg name="config_file" value="mcdviral_atv" if="$(eval 'ntu_'  in bag_file)" />
