@@ -45,14 +45,14 @@ If you use any resource on this website in your work, please cite our work as:
 
 ```
 @inproceedings{mcdviral2024,
-  title={MCD: Diverse Large-Scale Multi-Campus Dataset for Robot Perception},
-  author = {Nguyen, Thien-Minh and Yuan, Shenghai and Nguyen, Thien Hoang and Yin, Pengyu and Cao, Haozhi and Xie, Lihua and Wozniak, Maciej and Jensfelt, Patric and Thiel, Marko and Ziegenbein, Justin and Blunder, Noel},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  license = {CC BY-NC-SA 4.0},
-  url     = {https://mcdviral.github.io/},
-  version = {1.0},
-  year    = {2024},
-  month   = {6}
+  title        = {MCD: Diverse Large-Scale Multi-Campus Dataset for Robot Perception},
+  author       = {Nguyen, Thien-Minh and Yuan, Shenghai and Nguyen, Thien Hoang and Yin, Pengyu and Cao, Haozhi and Xie, Lihua and Wozniak, Maciej and Jensfelt, Patric and Thiel, Marko and Ziegenbein, Justin and Blunder, Noel},
+  booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  license      = {CC BY-NC-SA 4.0},
+  url          = {https://mcdviral.github.io/},
+  version      = {1.0},
+  year         = {2024},
+  month        = {6}
 }
 ```
 
