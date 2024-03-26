@@ -16,8 +16,7 @@ The calibrated parameters for the sensorsuites are provided in the following yam
 ## ROS bags
 The sequences are captured as rosbags, which are then compressed with bz2 method. User can uncompress the rosbags for less CPU usage at the cost of 3x memory storage.
 We also split the data into different bags based on the sensor type. User can freely select the combo that suits their interest. Ground truth is kept in a seperate folder. Please click on the figure to get the link to it.
-
-(Currently only bag files and ground truth of the first sequence is downloadable, but we will enable access for individual requests. Fully open access will be turned on after the review.)
+#(Currently only bag files and ground truth of the first sequence is downloadable, but we will enable access for individual requests. Fully open access will be turned on after the review.)
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
