@@ -16,7 +16,7 @@ We try to create a consistent settings for the benchmark. Specifically, after co
 ## LIO methods
 
 The methods below can be configured to work in ouster-only mode, livox-only mode, or merged ouster-livox mode.
-If you are interested in having your method listed here. Please prepare your launch and configurations in the same manner and let us know.
+If you are interested in having your method listed here. Please prepare your launch and configurations in the same manner and [contact us](mailto:mcdviral@gmail.com) to update this list.
 
 ### SLICT
   * Link: [https://github.com/brytsknguyen/slict](https://github.com/brytsknguyen/slict/blob/master/launch/run_mcdviral.launch)
