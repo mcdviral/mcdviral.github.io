@@ -58,4 +58,5 @@ If you use any resource on this website in your work, please cite our work as:
 
 # Updates
 **27/02/2024**: Paper accepted to CVPR 2024. Full access is enabled.
+
 **14/02/2023**: Preliminary release.
