@@ -9,8 +9,6 @@ sort: 2
 
 The labelled pointclouds are released as pcd files. To read an pcd file into a numpy array, we recommend the package [pypcd](https://github.com/mcdviral/pypcd).
 
-(Currently only the first sequence is downloadable.)
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
