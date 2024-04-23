@@ -4,11 +4,11 @@ sort: 6
 
 # Semantic Segmentation Tutorial
 
-<figure style="float: right; margin-left: 10px;">
-  <img src="images/data_path.png" alt="SLICT CONFIG" style="width: auto; height: 300px;">
-  <figcaption id="data-organization">Fig. 1: Recommended organization of MCD data.</figcaption>
-</figure>
+Below we provide more detailed instructions of utilizing MCD dataset for semantic segmentation. 
 
-We assume that you have downloaded the rosbag files to a folder `/path/to/MCD` as in [Fig. 1](#data-organization):
+## 1. Data organization and pre-processing
+We mainly follow the data organization of SemanticKITTI so that most existing backbones tested on SemanticKITTI can be easily adopted on MCD. After downloading the annotated lidar, we suggest users to follow the detailed organization instruction as in [this tutorial](https://github.com/mcdviral/mcdviral.github.io/blob/master/pcd_to_bin.ipynb) to pre-process the data.
 
-We try to create a consistent settings for the benchmark. Specifically, after compiling the code successfully, one only needs to seek out the `run_mcdviral.launch` file, modify the `data_path` and `bag_file` arguments, and then launch the method with `roslaunch <method> run_mcdviral.launch`. Some extra configurations for each method will also be noted.
+## 2. Training/Testing with Different Backbones
+TBD
+
