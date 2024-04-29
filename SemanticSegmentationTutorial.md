@@ -16,7 +16,7 @@ In the following section, we provide the implementation details of training/test
 
 For both MK-Net and SPVCNN, we leverage the re-implementation of from [2DPass](https://github.com/yanx27/2DPASS) with some minor modifications on configs and data I/O. 
 
-* Repo: https://github.com/AronCao49/2DPASS.
+* Repo: [https://github.com/AronCao49/2DPASS](https://github.com/AronCao49/2DPASS).
 * To pull built image, run ```docker pull aroncao49/2dpass:latest```.
 * To train MK-Net/SPVCNN with MCD dataset, please follow the train/test instruction of ```README.md``` in the [repo](https://github.com/AronCao49/2DPASS).
 
@@ -24,7 +24,7 @@ For both MK-Net and SPVCNN, we leverage the re-implementation of from [2DPass](h
 
 For SalsaNext, our implementation is mostly based on the official code.
 
-* Repo: https://github.com/AronCao49/SalsaNext.
+* Repo: [https://github.com/AronCao49/SalsaNext](https://github.com/AronCao49/SalsaNext).
 * To pull built image, run ```docker pull aroncao49/salsanext:latest```.
 * Follow the updated ```README.md``` to train/test with MCD dataset.
 * For training configuration, we made the following changes to adapt SalsaNext to MCD:
