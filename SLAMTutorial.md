@@ -97,5 +97,15 @@ If you are interested in having your method listed here. Please prepare your lau
   * The procedure is similar to all of the above. Please clone the repo to your catkin workspace, build, and then set the path to MCD root under the `data_path` argument in the `run_mcdviral.launch` file.
   * If you encounter any problem please raise an issue on the repo.
 
+### KIMERA
+
+  * This method requires three reposL
+    * [Kimera-RPGO](https://github.com/brytsknguyen/Kimera-RPGO)
+    * [Kimera-VIO](https://github.com/brytsknguyen/Kimera-VIO)
+    * [Kimera-VIO-ROS](https://github.com/brytsknguyen/Kimera-VIO-ROS)
+  * Please follow the official instructions to install the package. The `run_mcdviral.launch` file can be found in the [Kimera-VIO-ROS](https://github.com/brytsknguyen/Kimera-VIO-ROS/blob/master/launch/run_mcdviral.launch) package.
+  * If you encounter any problem please raise an issue on the repo.
+
+
 ## Ranging-aided Methods
 TBD
