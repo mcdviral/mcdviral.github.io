@@ -84,7 +84,18 @@ If you are interested in having your method listed here. Please prepare your lau
   * The default configuration is with ouster lidar. Changing to merged pointcloud or livox pointcloud is similar to the previous cases.
 
 ## VIO methods
-TBD
+
+### VINS-Fusion
+
+  * Link: [https://github.com/brytsknguyen/VINS-Fusion_Noetic_Focal](https://github.com/brytsknguyen/VINS-Fusion_Noetic_Focal/blob/master/vins_estimator/launch/run_mcdviral.launch)
+  * The procedure is similar to LIO methods. Please clone the repo to your catkin workspace, build, and then set the path to MCD root under the `data_path` argument in the `run_mcdviral.launch` file.
+  * If you encounter any problem please raise an issue on the repo.
+
+### OPEN-VINS
+
+  * Link: [https://github.com/brytsknguyen/open_vins](https://github.com/brytsknguyen/open_vins/blob/master/vins_estimator/launch/run_mcdviral.launch)
+  * The procedure is similar to all of the above. Please clone the repo to your catkin workspace, build, and then set the path to MCD root under the `data_path` argument in the `run_mcdviral.launch` file.
+  * If you encounter any problem please raise an issue on the repo.
 
 ## Ranging-aided Methods
 TBD
