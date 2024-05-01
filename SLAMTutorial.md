@@ -99,7 +99,7 @@ If you are interested in having your method listed here. Please prepare your lau
 
 ### KIMERA
 
-  * This method requires three reposL
+  * This method requires three repos
     * [Kimera-RPGO](https://github.com/brytsknguyen/Kimera-RPGO)
     * [Kimera-VIO](https://github.com/brytsknguyen/Kimera-VIO)
     * [Kimera-VIO-ROS](https://github.com/brytsknguyen/Kimera-VIO-ROS)
