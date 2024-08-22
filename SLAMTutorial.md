@@ -21,6 +21,7 @@ If you are interested in having your method listed here. Please prepare your lau
 ### SLICT
   * Link: [https://github.com/brytsknguyen/slict](https://github.com/brytsknguyen/slict/blob/master/launch/run_mcdviral.launch)
   * **We recommend you test out this method successfully so that other methods can depend on some of its utilities.**
+  * After successfully compiling the package, please modify the `data_path` argument in `run_mcdviral.launch` and launch it.
   * To configure SLICT to work with only ouster or livox, simply comment out the extrinsics in `slict/config/mcdviral_atv.yaml` and `slict/config/mcdviral_hhs.yaml` as follows.
   
   <div style="text-align:center;">
