@@ -8,7 +8,7 @@ Below we provide more information on our groundtruth data.
 
 ## Survey-grade prior map
 
-All ground truths ultimately come from the high accuracy survey-grade prior maps. You can download the original scans via the links below:
+All ground truths ultimately come from the high accuracy survey-grade prior maps. You can download the original scans via the links below (please use [CloudCompare](https://www.cloudcompare.org/release/index.html#CloudCompare) to read the files):
 
 <table>
   <tr>
