@@ -40,7 +40,14 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 If you find yourself or personal belongings in this dataset and feel unwell about it, please [contact us](mailto:mcdviral@gmail.com) and we will correct the issue.
 
-# Citation
+# Publications
+
+Please find our publications at the following:
+
+[Arxiv](https://arxiv.org/abs/2403.11496), 
+[CVPR Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Nguyen_MCD_Diverse_Large-Scale_Multi-Campus_Dataset_for_Robot_Perception_CVPR_2024_paper.pdf), 
+[Supplementary Material](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Nguyen_MCD_Diverse_Large-Scale_CVPR_2024_supplemental.pdf)
+
 If you use any resource on this website in your work, please cite our work as:
 
 ```
